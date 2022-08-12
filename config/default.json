@@ -1,0 +1,9 @@
+{
+    "scrapter": {
+        "cmd": {
+            "defaults": {
+                "env": "local"
+            }
+        }
+    }
+}

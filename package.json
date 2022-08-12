@@ -1,0 +1,21 @@
+{
+  "name": "scrapter",
+  "version": "1.0.0",
+  "description": "Scraper engine",
+  "main": "index.js",
+  "scripts": {
+    "cmd": "tsc -p . && node bin/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/config": "^3.3.0",
+    "@types/node": "^18.7.1",
+    "ts-node": "^10.9.1"
+  },
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "commander": "^9.4.0",
+    "config": "^3.3.7"
+  }
+}
