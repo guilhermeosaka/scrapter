@@ -1,0 +1,15 @@
+name: Prefeitura de Marília - SP
+goto: https://www.marilia.sp.gov.br/portal/editais/1
+type: .data-abertura | $moment().format('DD/MM/YYYY')
+select: .modalidades | 6
+step: row_context
+    context: .row
+        extract: bidding_number, .numero-edital | r'[A-Z]\s*(?\d+)[\s\.](?\d+)' | '$1/$2'
+        extract: bidding_mod | .modalidade
+        set: institute | 'PREFEITURA MUNICIPAL DE MARILIA - SP'
+        click: a | ctrl
+        gototab: -1
+        download: .anexo
+        closetab:
+            
+    

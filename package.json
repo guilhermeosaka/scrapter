@@ -4,18 +4,22 @@
   "description": "Scraper engine",
   "main": "index.js",
   "scripts": {
-    "cmd": "tsc -p . && node bin/index.js"
+    "cmd": "tsc -p . && node dist/index.js",
+    "dev": "tsc -w -p ."
   },
   "author": "",
   "license": "ISC",
   "devDependencies": {
     "@types/config": "^3.3.0",
     "@types/node": "^18.7.1",
+    "@types/puppeteer": "^5.4.6",
+    "puppeteer-tsd": "^0.0.2",
     "ts-node": "^10.9.1"
   },
   "dependencies": {
     "chalk": "^4.1.2",
     "commander": "^9.4.0",
-    "config": "^3.3.7"
+    "config": "^3.3.7",
+    "puppeteer": "^16.1.0"
   }
 }
