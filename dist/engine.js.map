@@ -1,1 +1,0 @@
-{"version":3,"file":"engine.js","sourceRoot":"","sources":["../src/engine.ts"],"names":[],"mappings":";;;;;;;;;;;;;;;AAAA,kDAA0B;AAE1B,MAAM,GAAG,GAAG,CAAO,MAAc,EAAE,IAAY,EAAE,OAAmB,EAAkB,EAAE;IACpF,OAAO,CAAC,GAAG,CAAC,wBAAwB,eAAK,CAAC,KAAK,CAAC,MAAM,CAAC,OAAO,eAAK,CAAC,MAAM,CAAC,OAAO,CAAC,GAAG,CAAC,EAAE,CAAC,CAAC;AAC/F,CAAC,CAAA,CAAA;AAGG,kBAAG"}

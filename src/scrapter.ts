@@ -56,6 +56,7 @@ const iterate = async<T>(page: puppeteer.Page, selector: string, action: (elemen
             return _.textContent;
         })
         
+        // teste
         //console.log(x);
         console.log('a:' + text);
         console.log('test');
